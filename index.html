@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBE</title>
+    <link rel="icon" type="images/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/home.css">
+    <meta name="description" content="WEBE stands for World Edit: Bedrock Edtion. Founded by the Squawk Squad, this was created to bring the same value
+    of building to Minecraft: Bedrock Edition as Java">
+    <meta property="og:image" content="https://webe.squawksquad.net/images/Squack_Squad.png">
+    <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: lightcoral;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: gray;
+        }
+
+        .navbar {
+            display: flex;
+            justify-items: right;
+            justify-content: space-between;
+            padding: 0px;
+            color: #fff;
+            margin: 0;
+
+        }
+
+        .nav-links a {
+            color: #fff;
+            margin: 0;
+        }
+
+        /* NAVBAR MENU */
+        .menu {
+            display: flex;
+            font-size: 18px;
+        }
+
+        .menu li {
+            padding: 5px 14px;
+        }
+
+
+        ul,
+        li,
+        a {
+            margin: 0px;
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: #111;
+            position: fixed;
+            width: 100%;
+            height: auto;
+            top: 0;
+            z-index: 99;
+        }
+
+
+
+        .logo-image {
+            width: 5%;
+            height: auto;
+            float: center;
+            margin-top: 1px;
+            margin-bottom: -1px;
+
+        }
+
+        li a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: right;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: League Spartan;
+        }
+
+        li a:hover:is(.inactive) {
+            background-color: #222;
+        }
+
+        div a:hover:is(.inactive) {
+            background-color: #222;
+        }
+
+
+
+        h1 {
+            color: white;
+            text-align: center;
+            font-family: League Spartan;
+            font-size: 50px;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: League Spartan;
+            font-size: 30px;
+        }
+
+        p {
+            color: white;
+            text-align: left;
+            font-family: League Spartan;
+            font-size: 19px;
+            padding: 5px;
+            float: center;
+        }
+
+        .about p {
+            color: white;
+            text-align: left;
+            font-family: League Spartan;
+            font-size: 19px;
+            padding: 5px;
+            float: center;
+        }
+
+        body {
+            background-color: #000000;
+            background-size: 5000px 100%;
+            background-position: top;
+            background-repeat: 0;
+            min-height: 100%;
+            min-width: 100%;
+            margin: 0;
+            padding: 0;
+
+            width: fit-content;
+        }
+
+
+
+        /* designerr was here hehe */
+
+        h3 {
+            color: #e9403d;
+            text-align: left;
+            font-family: League Spartan;
+            font-size: 37px;
+            float: center;
+        }
+
+        #title {
+            margin: 100px 0px 0px 0px;
+        }
+
+        .colored-backround {
+            background-color: #0B3954;
+            width: 98.5%;
+            height: 30%;
+            padding: 10px;
+        }
+
+        .colored-backround_FOOTER {
+            background-color: black;
+            width: 98%;
+            height: auto;
+            padding: 10px;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .homelogosize {
+            width: 24%;
+            height: auto;
+            margin: 10px;
+            border-radius: 25px;
+        }
+
+        .disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #e9403d;
+            text-align: center;
+            cursor: pointer;
+            width: fit-content;
+            font-size: 30px;
+            border-radius: 10px;
+
+
+        }
+
+        div.scrollmenu a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+
+        div.versioncard {
+            display: grid;
+            width: calc(98.5% / 1);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <div>
+                    <a href="#" class="pull-left"><img src="images/WEBELOGO.png" class="logo-image"></a>
+                </div>
+
+                <li><a class="inactive" href="#Home">Home</a></li>
+                <li><a class="inactive" href="#Download">Download</a></li>
+                <li><a class="inactive"
+                        style="background-color: #5865F2; border-radius: 5px;"="https://discord.gg/HBdg2CxJ6G">Discord</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    <section id="Home" style="margin:0px 0px 10% 0px">
+        <div style="margin:10% 0 10%">
+            <h1 id="title" style="margin: 10% 0 10% 0px; line-height: 56px;">
+                It's time to start working with WEBE.
+                <br><a href=#Download><button class="button" type="button"
+                        onclick="ScrollTo('#Download')">Download</button></a>
+                <script>
+                    function scrollTo(element) {
+                        window.scroll({
+                            behavior: 'smooth',
+                            left: 0,
+                            top: document.querySelector(element).offsetTop
+                        });
+                    }
+                </script>
+            </h1>
+
+        </div>
+
+
+        <div class="colored-backround">
+            <div>
+                <img src="images/WEBE.svg" alt="WEBE" class="float-left homelogosize" style="margin-right: 25px;">
+            </div>
+            <div style="margin-left: 30px;">
+                <h3 style="padding: 10px; margin-left: 30px;">
+                    <b> What is WEBE? </b>
+                </h3>
+                <p style="font-size: 28px; line-height: 37px;">
+                    WEBE stands for World Edit: Bedrock Edtion. Founded by the Squawk Squad, this was created to bring
+                    the
+                    same value
+                    of building to Minecraft: Bedrock Edition as Java Edition has with World Edit. World Edit is a
+                    powerful
+                    tool that allows players to quickly and easily make changes to their Minecraft world, such as
+                    building
+                    structures or terraforming land. It is a popular tool among players of Minecraft's Java Edition, and
+                    WEBE aims to bring that same level of functionality to players of the Bedrock Edition and to
+                    eventually
+                    exceed it in building.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="Download" style="margin:10% 0px 10% 0px">
+        <div style="margin:5% 5% 10% 5% ; background-color: #07283b; width: 88.5%; height: 20%; padding: 10px;">
+            <h2 style="color:#fff">Versions</h2>
+            <div class="scrollmenu"
+                style="overflow: auto; white-space: nowrap; background-color: #0B3954; width: 98.5%; height: 30%; padding: 10px;">
+                <div class="versioncard">
+                    <h3 style="margin-bottom:2px; text-align: center;">0.0.1</h3>
+                    <p style="margin-top:2px; margin-bottom:0px; color: #666; font-style: italic; text-align: center;">
+                        (Latest)</p>
+                    <p style="text-align:center; margin-top:2px; margin-bottom:0px; font-size: 20px"><b>Supported
+                            Versions:</b></p>
+                    <p style="text-align:center; margin-top:2px; margin-bottom:0px; font-size: 20px">1.19.50</p>
+                    <p style="text-align:center; margin-top:1px"><button class="button" type="button"
+                            onclick="nineteentfiftydl()"><svg style="height:25px; color:#ffffff;" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
+                                enable-background="new 0 0 1000 1000" xml:space="preserve">
+
+                                <g>
+                                    <g>
+                                        <g>
+                                            <polygon fill="#ffffff"
+                                                points="826.7,663.3 826.7,859.3 173.3,859.3 173.3,663.3 42.7,663.3 42.7,859.3 42.7,990 957.3,990 957.3,859.3 957.3,663.3 " />
+                                            <polygon fill="#ffffff"
+                                                points="761.3,467.3 630.7,467.3 630.7,10 369.3,10 369.3,467.3 238.7,467.3 500,794 " />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg> Download</button></p>
+
+                    <script>
+                        function nineteenfiftydl() {
+                            window.open("https://github.com/ForgedCore8/WEBE/archive/refs/tags/Test.zip");
+                        }
+                    </script>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+
+</html>
